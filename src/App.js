@@ -47,8 +47,8 @@ setTodos(todoLocal);
   return (
     <div className="container">
       <header>
-        <h1>GRGA Issue Tracker</h1>
-        <h2>First React Project</h2>
+        <h2>GRGA Issue Tracker</h2>
+        
       </header>
      <Form inputText={inputText} todos={todos} setTodos={setTodos} setInputText={setInputText} setStatus={setStatus} />
      <Todolist todos={todos} filteredTodos={filteredTodos} setTodos={setTodos}/>
