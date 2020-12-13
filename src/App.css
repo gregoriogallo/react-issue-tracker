@@ -47,6 +47,28 @@ form button:hover {
   min-width: 30%;
   list-style: none;
 }
+@media (max-width:500px){
+form{ display: flex;
+  flex-direction: column;
+  
+}
+input {
+  width: 100%;
+}
+button.todo-button {
+  width: 100%;
+  background-color: transparent;
+  
+}
+h2 {
+  display: flex;
+  text-align: center;
+}
+li.todo-item{
+  overflow: hidden;
+}
+
+}
 
 .todo {
   margin: 0.5rem;
@@ -79,6 +101,7 @@ form button:hover {
 }
 .todo-item {
   padding: 0rem 0.5rem;
+  overflow: hidden;
 }
 
 .fa-trash,
